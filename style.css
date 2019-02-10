@@ -1,12 +1,24 @@
+body {
+	font-family: 'Staatliches', cursive;
+	text-align: center;
+}
+
+h1 {
+	font-size: 3em;
+}
+
 main {
-	display: flex;
+	display: block;
+	color: red;
 }
 
 div {
-	display: flex;
-	flex-direction: column;
+	margin: 50px 250px;
+	padding: 50px;
+	border: 10px dashed blue;
+	font-size: 1.5em;
 }
 
 div img {
-	width: 100px;
+	height: 150px;
 }
